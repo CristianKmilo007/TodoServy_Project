@@ -1,0 +1,165 @@
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.answer2{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.8s ;
+}
+
+.show{
+    max-height: 280px;
+}
+
+.show2{
+    max-height: 135px;
+}
+
+.icon::before{
+    content: '+';
+    transition: all 1s ease;
+}
+
+.content{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+
+.acordion.active .content{
+    max-height: 200px;
+}
+
+.head:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.acordion.active .icon::before{
+    content: '-';
+}
+
+@media(max-width: 1000px){
+
+    .t1{
+        font-size:xx-large;
+    }
+
+    .img1{
+        width: 100% !important;
+    }
+
+    .cont1{
+        flex-direction: column-reverse;
+    }
+
+    .desc1{
+        width: 100% !important;
+        padding: 30px 0 !important;
+        
+    }
+
+    .img2{
+        width: 100% !important;
+    }
+
+    .sec2{
+        flex-direction: column;
+    }
+
+    .sm-w-100{
+        width: 100% !important;
+      }
+
+    .sec3{
+        flex-direction: column;
+    }
+
+    .sec3-1{
+        width: 100% !important;
+        padding: 20px 0 !important;
+        margin: 0 !important;
+    }
+
+    .sec4{
+        flex-direction: column;
+    }
+
+    .sec4-1{
+        width: 100% !important;
+        margin: 30px 0;
+    }
+
+    .sec5{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec5-1{
+        width: 100% !important;
+    }
+
+    .sec5-1-img{
+        width: 75% !important;
+    }
+
+    .acordion{
+        padding: 0 !important;
+    }
+
+    .cont2{
+        margin-bottom: 0 !important;
+    }
+
+    .sec6{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec6-1{
+        width: 75% !important;
+        margin: 15px 0 !important;
+    }
+
+    .sec7{
+        flex-direction: column;
+    }
+
+    .sec7-1{
+        width: 100% !important;
+        margin: 20px 0;
+    }
+
+    .show{
+        max-height: 350px;
+    }
+    
+    .show2{
+        max-height: 160px;
+    }
+
+    .btn-app{
+        width: 75% !important;
+    }
+
+    .content{
+        font-size:medium;
+    }
+
+    .acordion.active .content{
+        max-height: 270px;
+    }
+
+    .none{
+        display: none;
+    }
+
+    .initial{
+        display: initial !important;
+    }
+
+}
+
+

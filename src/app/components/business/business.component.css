@@ -1,0 +1,179 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  content: '';
+}
+
+.swiper-button-prev{
+  left: -.5rem;
+}
+
+.swiper-button-next{
+  right: -.5rem;
+}
+
+.swiper-portafolio-icon{
+  font-size: 2rem;
+  color:  #078BFB;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet{
+outline: none;
+}
+
+
+.answer{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.answer2{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ;
+}
+
+.show{
+  max-height: 280px;
+}
+
+.show2{
+  max-height: 135px;
+}
+
+.icon::before{
+  content: '+';
+  transition: all 1s ease;
+}
+
+.content{
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+
+.acordion.active .content{
+  max-height: 200px;
+}
+
+.head:hover{
+  background-color: rgb(230, 230, 230);
+}
+
+.acordion.active .icon::before{
+  content: '-';
+}
+
+.gradient-text{
+  background: linear-gradient(90deg, #0095FF 0%, #15F4C9 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.border-gradient{
+  border: 4px;
+  border-radius: 1.5rem;
+  border: double 4px transparent;
+  background-image: linear-gradient(white,white), linear-gradient(90deg, #0095FF 0%, #15F4C9 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.btn-gradient {
+  color: #ffffff;
+  background: transparent linear-gradient(90deg, #0095FF 0%, #15F4C9 100%);
+  border: none;
+  box-shadow: none;
+}
+
+@media(max-width: 1000px){
+  .t1{
+    font-size:xx-large;
+  }
+
+  .sm-w-100{
+    width: 100% !important;
+  }
+
+  .sm-w-75{
+    width: 75% !important;
+  }
+
+  .sm-jcc{
+    justify-content: center;
+  }
+
+  .sm-fdc{
+    flex-direction: column;
+  }
+
+  .sm-px-0{
+    padding: 10px 0 !important;
+  }
+
+  .sm-py-3{
+    padding: 30px 0 !important;
+  }
+
+  .sm-mx-0{
+    margin: 15px 0 !important;
+  }
+
+  .sm-p-3{
+    padding: 30px !important;
+  }
+
+  .sm-p-0{
+    padding: 0 !important;
+  }
+
+  .sm-aic{
+    align-items: center;
+  }
+
+  .sm-dn{
+    display: none;
+  }
+
+  .sm-di{
+    display: initial !important;
+  }
+
+  .show{
+    max-height: 400px;
+}
+
+.show2{
+    max-height: 160px;
+}
+
+
+
+
+
+
+}

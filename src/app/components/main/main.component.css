@@ -1,0 +1,28 @@
+.btn-group button {
+    border: 1px solid gray;
+    color: gray;
+    padding: 7px 80px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-group .btn.active{
+    color: white;
+}
+
+.btn-group button:hover {
+    color: white;
+}
+
+
+@media(max-width: 1000px){
+
+    .btn-group button {
+        padding: 10px 30px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-size: small;
+    }
+
+}
+

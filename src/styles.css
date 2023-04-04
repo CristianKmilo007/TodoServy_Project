@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    padding: 20px;
+}
+
+.p2{
+    font-family: "Poppins", sans-serif;
+}
+
+.font-title{
+    font-weight:900;
+    font-size: 3rem;
+}
+
+.font-p{
+    font-size: 1.1rem;
+    color: black !important;
+}
+
+.text-primary{
+    color: #078BFB !important;
+}
+
+@media(min-width: 850px){
+    body{
+        padding: 0 100px !important;
+    }
+}
